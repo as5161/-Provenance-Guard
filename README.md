@@ -381,3 +381,14 @@ python app.py
 ```
 
 The API is served at `http://127.0.0.1:5000`.
+
+---
+
+## Walkthrough Video
+
+[Watch the walkthrough](https://youtu.be/3EzO9ovUD2Q)
+
+A short demo showing a submission, the confidence scoring and disagreement guard,
+an appeal, and the analytics dashboard.
+
+---

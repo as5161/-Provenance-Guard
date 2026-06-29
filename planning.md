@@ -190,6 +190,7 @@ submissions. Metrics displayed:
 - Appeal rate (appeals filed ÷ total submissions)
 - Average confidence score across all submissions (the additional metric of choice)
 
-The dashboard reads from the same SQLite database using SELECT/COUNT queries and
-returns the metrics as JSON, giving a platform operator a quick read on how the
-detector is behaving and how often creators contest its verdicts.
+The dashboard reads from the same SQLite database using COUNT, GROUP BY, and AVG
+queries and returns a visual HTML page (colored bars for the attribution
+breakdown), giving a platform operator a quick read on how the detector is
+behaving and how often creators contest its verdicts.
